@@ -51,7 +51,7 @@ public class Material {
             //decode base64 string
             material.picture = Base64.getDecoder().decode(pictureEncoded);
           } else {
-            ///no picture was provided from
+            ///no picture was provided from source
         }
         
         //get path to the source folder
